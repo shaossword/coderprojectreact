@@ -1,0 +1,121 @@
+.gerer-projet {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+  width: 20%;
+  height: 80vh;
+  margin-right: 1vw;
+}
+.list p {
+  height: 16.35%;
+  margin: 0;
+  border: solid black 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list p:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.contenu {
+  width: 60%;
+  height: 80vh;
+  border: black solid 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* information */
+.contenu_information {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.information {
+  display: flex;
+  height: 100%;
+}
+.titre_description {
+  width: 20vw;
+  height: 95%;
+
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.titre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.autre {
+  width: 35vw;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+}
+
+.langue_logo {
+  height: 80%;
+  display: flex;
+}
+
+.langue {
+  width: 48%;
+  height: 100%;
+  margin: 0 0.9%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.langageFrame {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  height: 50%;
+}
+.logo {
+  width: 48%;
+  height: 100%;
+  margin: 0 0.9%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.logo img {
+  max-width: 100%;
+  margin: 3% 0;
+}
+.logo input {
+  max-width: 100%;
+  margin: 3% 0;
+}
+
+.valider {
+  width: 98%;
+  height: 18%;
+  margin: 0.9% 0.9% 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* partage de fichier */
